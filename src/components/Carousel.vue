@@ -39,10 +39,10 @@ import { ref, onMounted, onUnmounted } from 'vue';
 // State variables for carousel functionality
 const currentIndex = ref(0); // Current index of the carousel
 const images = ref([ // Array of image URLs for the carousel
-  './src/img/download (1).jpg',
-  './src/img/download (2).jpg',
-  './src/img/download (3).jpg',
-  './src/img/download.jpg',
+  'https://s3.amazonaws.com/thumbnails.thecrimson.com/photos/2024/03/06/205137_1369293.jpg.1500x843_q95_crop-smart_upscale.jpg',
+  'https://pyxis.nymag.com/v1/imgs/3b7/ca7/5fd3353737d602a5a1caa3fce92cb33b39-rick-morty.2x.rsocial.w600.jpg',
+  'https://www.indiewire.com/wp-content/uploads/2022/10/Rick-Morty-Season-6-Fire-Eyes.png?w=600&h=337&crop=1',
+  'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUW4uLJAi_U6auqoElmN6NU44dSaeVMJruFg&s',
 ]);
 
 // Function to move to the previous image in the carousel

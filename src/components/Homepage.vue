@@ -1,4 +1,4 @@
-Miki MS, [5/30/2024 3:08 PM]
+Miki MS, [5/30/2024 3:07 PM]
 <template>
   <div class="bg-gray-900 text-white min-h-screen flex">
     <!-- Navigation bar -->
@@ -69,7 +69,7 @@ Miki MS, [5/30/2024 3:08 PM]
         </div>
       </div>
 
-Miki MS, [5/30/2024 3:08 PM]
+Miki MS, [5/30/2024 3:07 PM]
 <!-- Locations -->
       <div class="locations-section p-8">
         <h2 class="text-3xl font-semibold mb-4">Locations</h2>
@@ -177,26 +177,3 @@ watchEffect(() => {
   }
 })
 </script>
-
-Miki MS, [5/30/2024 3:08 PM]
-<style scoped>
-.navbar .nav-link {
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
-  padding: 8px 0;
-  transition: color 0.3s ease;
-}
-.navbar .nav-link:hover {
-  color: #ffd700;
-}
-.character-image {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  transition: transform 0.3s ease;
-}
-.character-image:hover {
-  transform: scale(1.1);
-}
-</style>
